@@ -1,1 +1,38 @@
 /*  your css code here. If applicable */
+
+
+body {
+  background-color: #cccccc;
+}
+h1, h2{
+	
+	display:flex;
+	justify-content:center;
+	text-align: center;
+}
+.player_one{
+	margin:0;
+	padding:0;
+	background-color:white;
+
+	border:1px solid black;
+		display:flex;
+
+}
+.player_two{
+	
+	margin:0 auto;
+	display:flex;
+	justify-content:center;
+	 align-items:center; 
+	flex-direction:column;
+		width:22rem;
+	height:25rem;
+	background-color:white;
+	border:1px solid black;
+
+}
+
+.player_one{
+  text-decoration-line: none;
+}
